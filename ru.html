@@ -226,9 +226,57 @@
             </div>
           </article>
 
-          <article class="project-card github-card">
+          <article class="project-card" id="syrian-license-plate">
             <div class="project-topline">
               <span class="project-number">06</span>
+              <span class="project-type">C++ / Qt / Компьютерное зрение</span>
+            </div>
+            <h3>Распознавание сирийских автомобильных номеров</h3>
+            <p>
+              Настольное приложение на C++/Qt для распознавания сирийских автомобильных номеров
+              в видеофайлах и потоках IP-камер, с арабским интерфейсом и тремя видеопанелями.
+            </p>
+            <ul class="project-points">
+              <li>Обработка изображений в OpenCV, распознавание номеров в dlib и детекция автомобилей с YOLO.</li>
+              <li>Три класса захвата объединены в один CaptureThread с независимым состоянием для каждого потока.</li>
+              <li>Добавлены регрессионные тесты параллельного захвата, паузы, возобновления, владения данными кадров и завершения работы.</li>
+              <li>История распознавания в SQLite с сохранением изображений номеров и исходных сцен.</li>
+            </ul>
+            <div class="tags">
+              <span>C++</span><span>Qt</span><span>OpenCV</span><span>dlib</span><span>YOLO</span><span>LibVLC</span><span>SQLite</span>
+            </div>
+            <div class="repo-links">
+              <a href="https://github.com/slmanali/Syrian-license-plate-QT-dlib" target="_blank" rel="noreferrer" aria-label="Открыть проект распознавания сирийских номеров на GitHub">Репозиторий на GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card" id="qt-artillery">
+            <div class="project-topline">
+              <span class="project-number">07</span>
+              <span class="project-type">Qt / Обработка видео</span>
+            </div>
+            <h3>QT-artillery 5.9.4</h3>
+            <p>
+              Приложение на Qt 5.9.4 с арабским интерфейсом для захвата видео,
+              обработки изображений, отслеживания объектов и работы с картой.
+            </p>
+            <ul class="project-points">
+              <li>Захват изображения с камер через OpenCV и потоков IP-камер через LibVLC.</li>
+              <li>Вычитание фона, выделение связных областей и несколько алгоритмов отслеживания объектов.</li>
+              <li>Запись видео, отображение данных поверх кадра и виджеты карты.</li>
+              <li>В README описаны структура исходного кода, исходное окружение Windows/MinGW и отсутствующие внешние компоненты.</li>
+            </ul>
+            <div class="tags">
+              <span>C++</span><span>Qt 5</span><span>OpenCV</span><span>LibVLC</span><span>Tracking</span><span>Boost</span>
+            </div>
+            <div class="repo-links">
+              <a href="https://github.com/slmanali/QT-artillery_5.9.4" target="_blank" rel="noreferrer" aria-label="Открыть QT-artillery 5.9.4 на GitHub">Репозиторий на GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card github-card">
+            <div class="project-topline">
+              <span class="project-number">08</span>
               <span class="project-type">Публичный код</span>
             </div>
             <h3>Open-source и технические проекты</h3>
